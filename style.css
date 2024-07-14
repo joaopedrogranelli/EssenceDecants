@@ -21,9 +21,10 @@
 
   --bg-light: hsl(180, 14%, 97%);
 
-  font-size: 62.5%; /* 1rem = 10px */
-
+  
   --nav-height: 7.2rem;
+
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
 html {
@@ -344,7 +345,6 @@ body.menu-expanded button path {
   width: 26.4rem;
   display: block;
   margin-inline: auto;
-  object-position: 0 2rem;
 }
 
 #home .stats {
