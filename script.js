@@ -15,8 +15,8 @@ function scrolling() {
 function activateMenuAtCurrentSection(section) {
   const targetLine = scrollY + innerHeight / 2;
 
-  const sectionTop = section.offsetTop; // Corrected typo
-  const sectionHeight = section.offsetHeight; // Corrected typo
+  const sectionTop = section.offsetTop; 
+  const sectionHeight = section.offsetHeight;
   const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop;
 
   const sectionEndsAt = sectionTop + sectionHeight;
